@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+            nav ul li a {
+                color: white;
+                text-decoration: none;
+            }
+
+header {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+    header img {
+        width: 100%;
+        height: auto;
+    }
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+#about {
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#work {
+    padding: 20px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+    .project img {
+        width: 100%;
+        height: auto;
+    }
+
+#gallery {
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+    .gallery img {
+        width: 30%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
